@@ -34,7 +34,7 @@ function App() {
   return (
     <div
       className="p-4 rounded shadow bg-dark text-white text-center"
-      style={{ width: "350px" }}
+      style={{ width: "450px" }}
     >
       <h1>To Do List</h1>
       <InputForm onAddTask={onAddTask} editedTask={editedTask} />
